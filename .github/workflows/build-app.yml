@@ -39,14 +39,19 @@ jobs:
         run: npm run build:prod
         working-directory: exb/client
       - name: Run download script
-        run: node -e "require('./server/src/middlewares/dev/apps/app-download.js').zipApp('0', 'app.zip')"
+        run: |
+          node -e "require('./server/src/middlewares/dev/apps/app-download.js').zipApp('0', 'app.zip')"
+          node -e "require('./server/src/middlewares/dev/apps/app-download.js').zipApp('1', 'app1.zip')"
         working-directory: exb
         env:
           NODE_ENV: production
       - name: Unzip app zip
         # ExB has non-standard file permissions so use chmod after unzip
         run: |
-          unzip -q app.zip -d app
+          mkdir -p app/0
+          mkdir -p app/1
+          unzip -q app.zip -d app/0
+          unzip -q app1.zip -d app/1
           chmod -R 777 app
         working-directory: exb
       - name: Deploy app zip to GH Pages
