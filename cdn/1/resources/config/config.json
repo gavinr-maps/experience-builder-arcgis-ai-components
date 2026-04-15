@@ -1,0 +1,79 @@
+{
+  "pages": {
+    "page_0": {
+      "id": "page_0",
+      "mode": "FIT_WINDOW",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_0"
+      },
+      "isDefault": true,
+      "isVisible": true,
+      "label": "Page"
+    }
+  },
+  "layouts": {
+    "layout_0": {
+      "type": "GRID",
+      "content": {
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_2",
+          "gridType": 3,
+          "bbox": {
+            "width": 100
+          },
+          "expandable": true
+        }
+      },
+      "order": [],
+      "setting": {
+        "rootItem": "1"
+      }
+    }
+  },
+  "exbVersion": "1.20.0",
+  "mainSizeMode": "LARGE",
+  "theme": "themes/master/",
+  "forBuilderAttributes": {
+    "lockLayout": false
+  },
+  "template": "blankfullscreengrid",
+  "widgets": {
+    "widget_2": {
+      "uri": "widgets/arcgis-ai/",
+      "version": "1.20.0",
+      "config": {},
+      "id": "widget_2"
+    }
+  },
+  "widgetsManifest": {},
+  "views": {},
+  "sections": {},
+  "dialogs": {},
+  "messageConfigs": {},
+  "pageStructure": [
+    {
+      "page_0": []
+    }
+  ],
+  "attributes": {
+    "portalUrl": "https://prof-services.maps.arcgis.com"
+  },
+  "timestamp": 1776268451970,
+  "sharedThemeVariables": {
+    "header": {},
+    "body": {},
+    "button": {}
+  },
+  "mainLocale": "en-us",
+  "dataSources": {
+    "dataSource_1": {
+      "id": "dataSource_1",
+      "type": "WEB_MAP",
+      "sourceLabel": "USA",
+      "itemId": "6725fe6f05f546cc801f9afbdbed0698",
+      "portalUrl": "https://prof-services.maps.arcgis.com"
+    }
+  }
+}
