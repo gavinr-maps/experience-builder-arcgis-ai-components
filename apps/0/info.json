@@ -1,0 +1,27 @@
+{
+  "created": 1776262199745,
+  "description": "",
+  "id": "0",
+  "modified": 1776268452011,
+  "owner": "GRehkemper@esri.com_prof_services",
+  "tags": [],
+  "thumbnail": null,
+  "title": "AI Component Demo",
+  "type": "Web Experience",
+  "snippet": "",
+  "typeKeywords": [
+    "EXB Experience",
+    "Ready To Use",
+    "JavaScript",
+    "status: Changed",
+    "version:1.20.0",
+    "template:blankfullscreengrid",
+    "modified: 1776268452004",
+    "publishVersion:1.20.0"
+  ],
+  "portalUrl": "https://prof-services.maps.arcgis.com",
+  "username": "GRehkemper@esri.com_prof_services",
+  "name": "AI Component Demo",
+  "isLocalApp": true,
+  "url": null
+}

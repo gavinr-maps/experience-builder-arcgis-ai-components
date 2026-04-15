@@ -1,0 +1,15 @@
+{
+  "name": "arcgis-ai",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gavin Rehkemper",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@arcgis/ai-components": "^5.0.16",
+    "@arcgis/map-components": "^5.0.16"
+  }
+}

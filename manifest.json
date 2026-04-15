@@ -1,0 +1,7 @@
+{
+  "name": "experience-builder-arcgis-ai-components",
+  "type": "exb-web-extension-repo",
+  "description": "Examples using the ArcGIS Maps SDK for JavaScript AI components within custom Experience Builder widgets.",
+  "copyright": "Gavin Rehkemper",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0"
+}
