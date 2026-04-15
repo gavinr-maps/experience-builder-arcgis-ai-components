@@ -16,9 +16,9 @@
     "layout_0": {
       "type": "GRID",
       "content": {
-        "1": {
+        "0": {
           "type": "WIDGET",
-          "widgetId": "widget_2",
+          "widgetId": "widget_1",
           "gridType": 3,
           "bbox": {
             "width": 100
@@ -28,7 +28,7 @@
       },
       "order": [],
       "setting": {
-        "rootItem": "1"
+        "rootItem": "0"
       }
     }
   },
@@ -40,11 +40,11 @@
   },
   "template": "blankfullscreengrid",
   "widgets": {
-    "widget_2": {
+    "widget_1": {
       "uri": "widgets/arcgis-ai/",
       "version": "1.20.0",
       "config": {},
-      "id": "widget_2"
+      "id": "widget_1"
     }
   },
   "widgetsManifest": {},
@@ -60,20 +60,12 @@
   "attributes": {
     "portalUrl": "https://prof-services.maps.arcgis.com"
   },
-  "timestamp": 1776268451970,
+  "timestamp": 1776271345661,
   "sharedThemeVariables": {
     "header": {},
     "body": {},
     "button": {}
   },
   "mainLocale": "en-us",
-  "dataSources": {
-    "dataSource_1": {
-      "id": "dataSource_1",
-      "type": "WEB_MAP",
-      "sourceLabel": "USA",
-      "itemId": "6725fe6f05f546cc801f9afbdbed0698",
-      "portalUrl": "https://prof-services.maps.arcgis.com"
-    }
-  }
+  "dataSources": {}
 }

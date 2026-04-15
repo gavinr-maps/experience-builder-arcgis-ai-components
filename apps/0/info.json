@@ -1,8 +1,8 @@
 {
-  "created": 1776262199745,
+  "created": 1776270911101,
   "description": "",
   "id": "0",
-  "modified": 1776268452011,
+  "modified": 1776271346374,
   "owner": "GRehkemper@esri.com_prof_services",
   "tags": [],
   "thumbnail": null,
@@ -13,10 +13,10 @@
     "EXB Experience",
     "Ready To Use",
     "JavaScript",
-    "status: Changed",
+    "status: Published",
     "version:1.20.0",
     "template:blankfullscreengrid",
-    "modified: 1776268452004",
+    "modified: 1776271345705",
     "publishVersion:1.20.0"
   ],
   "portalUrl": "https://prof-services.maps.arcgis.com",
